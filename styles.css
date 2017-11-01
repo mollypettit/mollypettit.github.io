@@ -1,6 +1,10 @@
 html {
-    background-color: #252525;
+    background-color: white;
     font-family: 'Helvetica', serif;
+}
+
+head {
+    background-color: #252525;
 }
 
 header {
@@ -72,12 +76,13 @@ a:hover {
 }
 
 footer {
+    background-color: #252525;
     float:left;
-    bottom: 0px;
+    bottom: 0;
     width:100%;
-    height: 30px;
+    height: 40px;
     float:right;
-    bottom: 0px;
+    position: fixed;
 }
 
 #footerIcons {
@@ -98,4 +103,14 @@ footer {
 #examples {
     text-align: center;
     color: #630460;
+}
+
+#BlackDice {
+    float: left;
+    margin-left: 100px;
+}
+
+#RedDice {
+    float: right;
+    margin-right: 100px;
 }
